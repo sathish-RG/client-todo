@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = "http://localhost:3000/api/v1"; // Ensure this matches your backend
+const baseURL = "https://server-todo-o2lj.onrender.com/api/v1"; // Ensure this matches your backend
 
 const instance = axios.create({
   baseURL,
