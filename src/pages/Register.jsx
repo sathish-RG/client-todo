@@ -26,7 +26,7 @@ const Register = () => {
      dispatch(setPassword(''))
 
      setTimeout(()=>{
-      navigate("/login")
+      navigate("/")
      },500)
     }catch(err){
       const message = err.response?.data?.message || err.message || "Something went wrong"
